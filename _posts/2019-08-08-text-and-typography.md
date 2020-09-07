@@ -181,6 +181,16 @@ fi;
 </div>
 ```
 
+**python**
+
+```python
+def function(a,b):
+    print(a)
+    print(b)
+
+    return a+b    
+```
+
 
 ## Reverse Footnote
 
