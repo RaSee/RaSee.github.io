@@ -5,6 +5,7 @@ date: 2020-09-09 01:11:00 +0800
 categories: [python, argparse]
 tags: [python, argparse, argument, example]
 toc: false
+last_modified_at : 2020-09-14T00:08+09:00
 ---
 
 python argparse
@@ -14,7 +15,6 @@ python에는 프로그램 구동 시 받는 인자를 편리하게 해주는 arg
 다음과 같이 사용할 수 있다.
 
 argparse_example1.py
-**python**
 
 ```python
 
@@ -44,7 +44,7 @@ b :  5
 
 비교를 위해 인자를 받아올 수 있는 sys모듈을 사용해보았다.
 
-sys_args_example.py
+
 ```python
 
 import sys
@@ -65,7 +65,6 @@ argparse는 인자 인자 이름을 통해 변수의 역할을 짐작할 수 있
 
 하지만 argparse에는 옵션인자를 사용하여 순서에 구애받지 않고 인자를 받아올 수 있다.
 
-argparse_example2.py
 ```python
 
 import argparse
@@ -94,7 +93,7 @@ banana :  5
 
 옵션 인자가 길다면 짧은 옵션을 사용하여 인자 이름을 줄일 수 있다.
 
-argparse_example3.py
+
 ```python
 import argparse
 
@@ -119,7 +118,7 @@ banana :  5
 sys 는 모든 인자를 str로 받아오지만
 argparse는 각 인자의 type를 지정할 수 있다.
 
-argparse_excampe4.py
+
 ```python
 import argparse
 
@@ -143,6 +142,7 @@ banana :  3 <class 'str'>
 
 이를 참고하여 인자를 쉽게 받아보자.
 
+
+
 참고
 1. https://docs.python.org/ko/3/howto/argparse.html
-2. 
