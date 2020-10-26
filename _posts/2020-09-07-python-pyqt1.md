@@ -5,15 +5,16 @@ date: 2020-10-26 00:55:00 +0800
 categories: [python, pyqt5]
 tags: [python, pyqt5]
 toc: false
+last_modified_at : 2020-10-26 22:00:00 +0800
 ---
 
 Linux에서 PyQt5 설치 시
 
 ```terminal
 pip3 install pyqt5
-
-
+```
 만 입력하면 다음과 같은 에러를 보인다.
+
 
 ```terminal
 qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
@@ -25,6 +26,7 @@ Aborted (core dumped)
 ```
 
 apt를 이용하여 python의 pyqt를 설치하면 해당 문제를 해결할 수 있다.
+
 ```terminal
 sudo apt install python-pyqt5
 sudo apt install python3-pyqt5
